@@ -1,0 +1,75 @@
+.other-son-content {
+    width: 99%;
+    height: 400px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+    padding-top: 30px;
+    overflow-y: scroll;
+    /* 总是显示纵向滚动条  */
+    /* overflow-x: scroll; */
+    /* 总是显示横向滚动条 */
+}
+
+
+/* 防止高度塌陷 */
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* 最外层的div设置 */
+
+.out {
+    width: 280px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+
+/* 图片设置
+    *设置了圆角
+    *设置垂直居中依靠bottom
+    *
+    * */
+
+.picture .iu-picture {
+    border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.picture .iu-picture:hover {
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.my-content {
+    margin: 10px 20px;
+}
+
+.title {
+    font-size: 20px;
+    color: rgb(145, 143, 143);
+    margin-bottom: 10px;
+}
+
+.content-a {
+    margin: 10px 10px;
+    font-size: 13px;
+    color: rgb(145, 143, 143);
+}
+
+.content-b {
+    margin: 10px 6px;
+    font-size: 13px;
+    color: rgb(145, 143, 143);
+    margin-bottom: 12px;
+}
+
+.content-b p::before {
+    content: "   ";
+}

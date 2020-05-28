@@ -1,0 +1,30 @@
+.foot {
+    height: 100px;
+    width: 1030px;
+    /* background-color: rgb(123, 181, 235); */
+    position: absolute;
+    right: 204px;
+    top: 1120px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.foot-left {
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    margin-left: 100px;
+}
+
+.foot-right {
+    width: 400px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    float: right;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.connect {
+    width: 100px;
+}

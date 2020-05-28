@@ -1,0 +1,40 @@
+.left-list { 
+    margin: 0 auto;
+    margin-top:10px ;
+    width: 260px;
+    border: 1px solid #bdf;
+    padding :10px 5px 10px 5px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px rgba(0,0,0,.8);
+    
+}
+.left-list .item{
+    height: 30px;
+    padding-left:0px;
+    padding-bottom:2px;
+    line-height: 30px;
+}
+.left-list .item:hover{
+    background-color:#dbf;
+}
+/* .left-list .item:active{
+    background-color: #FEFEFE;
+} */
+
+a:active{
+    color:red;
+}
+.item a{
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+    /* text-decoration是用来设置字的修饰的，none
+     * 就是去掉 的意思
+     */
+    text-decoration: none;
+}
+.left-list .item a:hover{
+    color:#c8162a;
+    
+}
+ 

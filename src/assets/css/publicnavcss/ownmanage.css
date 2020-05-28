@@ -1,0 +1,62 @@
+.own{
+    width:180px;
+    height:80px;
+    line-height: 80px;
+    /* background-color: rgb(100, 84, 160); */
+}
+.own img{
+    /* position: relative; */
+    background-color: rgb(206, 50, 50);
+    border-radius: 50%;
+    width:60px;
+    height:60px;
+    margin-top: 10px;;
+}
+#u-nickname{
+    position: absolute;
+    left:100px;
+    top:-15px;
+}
+#u-name{
+    position: absolute;
+    left:80px;
+    top:15px;
+}
+#own-center{
+    width:180px;
+    height:60px;
+    line-height: 60px;
+    margin:0 atuo;
+    background-color: rgb(250, 241, 241);
+    margin-top: 9px;
+}
+#own-center h3{
+    margin-left: 40px;
+}
+#own-center:active{
+    background-color: rgb(112, 49, 49);
+}
+#own-center:hover{
+    background-color: rgb(224, 103, 103);
+}
+
+#setting{
+    width:180px;
+    height:60px;
+    line-height: 60px;
+    background-color: rgb(172, 226, 180);
+    margin-top: 9px;
+}
+#setting h3{
+    margin-left: 40px;
+}
+#problem-reflect{
+    width:180px;
+    height:60px;
+    line-height: 60px;
+    background-color: rgb(184, 208, 243);
+    margin-top: 9px;
+}
+#problem-reflect h3{
+    margin-left: 40px;
+}

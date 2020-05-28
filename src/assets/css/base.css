@@ -1,0 +1,25 @@
+/* 高度塌陷和边框重叠问题的解决 */
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* body的默认样式 */
+body{
+    /* 小米官网的默认字体 */
+    font: 15px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    /* 小米官网的默认最小宽度 */
+    min-width: 1226px;
+    /*默认字体颜色 */
+    color:#333;
+}
+
+
+
+/* 默认的屏幕宽度 */
+.screen-width{
+    width: 1226px;
+    margin:0 auto;
+}

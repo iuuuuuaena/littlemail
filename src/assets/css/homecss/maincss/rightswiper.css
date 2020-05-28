@@ -1,0 +1,19 @@
+
+.swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+    height: 200px;
+}
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 8%;
+}
+
+
+.every-page{
+    height:60vh;
+}
+.goods-img{
+    height:62vh;
+}

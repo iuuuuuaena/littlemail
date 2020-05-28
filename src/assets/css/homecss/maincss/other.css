@@ -1,0 +1,20 @@
+.other {
+    width: 1032px;
+    height: 500px;
+    /* background-color: rgb(241, 191, 191); */
+}
+
+.other-left {
+    float: left;
+    width: 33%;
+}
+
+.other-right {
+    float: right;
+    width: 34%;
+}
+
+.other-center {
+    float: right;
+    width: 33%;
+}
